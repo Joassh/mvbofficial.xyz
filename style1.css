@@ -74,9 +74,20 @@ body,html{
 .content{
   /* background-image: linear-gradient(to right, #051937, #002844, #00374c, #004551, #085353); */
   /*background-image: linear-gradient(to right, #b56492, #9a578c,  #7f4b84, #62407b, #433671, #343c76, #214178, #004679, #005b88, #00708f, #008390, #0f968d) !important;*/
-   background-image: linear-gradient(to right bottom, #5b183e, #521743, #471848, #3a194c, #291b4f, #252d63, #1b3e76, #005088, #0079ae, #00a4cc, #00d0e2, #5ffbf1);
+/*   background-image: linear-gradient(to right bottom, #5b183e, #521743, #471848, #3a194c, #291b4f, #252d63, #1b3e76, #005088, #0079ae, #00a4cc, #00d0e2, #5ffbf1);*/
+background-image: linear-gradient(to right, #3b0339, #390140, #350048, #2f0050, #240359);
 }
-
+.card{
+	background-color: transparent !important;
+	border: solid 3px white;
+	
+}
+.card-title{
+	color:white;
+}
+hr{
+	border:white 2px solid;
+}
 @keyframes cloudsanimate {
   0%{
     background-position: 0px;
